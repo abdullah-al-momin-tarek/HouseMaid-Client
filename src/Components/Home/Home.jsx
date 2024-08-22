@@ -1,12 +1,11 @@
-import Theme from "../ThemeControl/Theme";
-
 const Home = () => {
   return (
     <div>
-      <Theme />
-      <div className="bg-white text-black dark:bg-gray-900 dark:text-white">
+      <div className=" bg-yellow-400 dark:bg-slate-300 text-black dark:text-white">
         <h1 className="text-2xl font-bold">Hello, World!</h1>
-        <p>This is a Tailwind CSS example with dark mode support.</p>
+        <p className="dark:text-yellow-500 ">
+          This is a Tailwind CSS example with dark mode support.
+        </p>
       </div>
     </div>
   );
